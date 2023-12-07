@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conexo Histórico</title>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="files/favicon.ico">
+</head>
+<body>
+  <div class="container">
+    <h1>Conexo Histórico</h1>
+    <p class="page-description">Divirta-se jogando os desafios anteriores do Conexo.</p>
+    
+    <div class="button-list">
+      <ul class="horizontal-list">
+        <li>
+          <a href="https://conexo.ws/daily" class="button-link" target="_blank">
+            <button type="button">Jogue o Conexo de hoje</button>
+          </a>
+        </li>
+        <li>
+          <a onclick="getRandomLink()" class="button-link" target="_blank">
+            <button type="button">Aleátorio</button>
+          </a>
+        </li>
+        <li>
+          <a href="https://ajunta.ew.dev.br/" class="button-link" target="_blank">
+            <button type="button">Crie o seu próprio desafio</button>
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+    <ul class="dates-list">
+
+      <li>
+        <a onclick="getLink('07/12/2023')" class="date-link" target="_blank">
+          <div class="date-card">
+            <img src="files/calendario-icon.png" alt="Ícone de Calendário">
+            <span class="date">07/12/2023</span>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a onclick="getLink('06/12/2023')" class="date-link" target="_blank">
+          <div class="date-card">
+            <img src="files/calendario-icon.png" alt="Ícone de Calendário">
+            <span class="date">06/12/2023</span>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a onclick="getLink('05/12/2023')" class="date-link" target="_blank">
+          <div class="date-card">
+            <img src="files/calendario-icon.png" alt="Ícone de Calendário">
+            <span class="date">05/12/2023</span>
+          </div>
+        </a>
+      </li>
+     
+    </ul>
+  </div>
+</body>
+</html>
